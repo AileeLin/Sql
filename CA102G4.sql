@@ -1,4 +1,4 @@
---建立目錄
+--建立目錄 
 --product是分工，依照自己的分工建立自己的資料夾
 --ca102g4_pics 勿改
 CREATE OR REPLACE DIRECTORY image_product_dir AS 'c:\ca102g4_pics\product';
@@ -146,7 +146,7 @@ ATT_STATUS NUMBER(1,0)
 ALTER TABLE ATTRACTIONS ADD CONSTRAINT PK_ATTRACTIONS PRIMARY KEY (ATT_NO);
 
 
---廣告
+--廣告Table
 DROP TABLE AD CASCADE CONSTRAINTS;
 CREATE TABLE AD (
  AD_ID VARCHAR2(20) NOT NULL,
